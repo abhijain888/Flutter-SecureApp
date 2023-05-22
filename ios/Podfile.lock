@@ -1,20 +1,26 @@
 PODS:
   - Flutter (1.0.0)
+  - local_auth_ios (0.0.1):
+    - Flutter
   - secure_application (0.0.1):
     - Flutter
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
+  - local_auth_ios (from `.symlinks/plugins/local_auth_ios/ios`)
   - secure_application (from `.symlinks/plugins/secure_application/ios`)
 
 EXTERNAL SOURCES:
   Flutter:
     :path: Flutter
+  local_auth_ios:
+    :path: ".symlinks/plugins/local_auth_ios/ios"
   secure_application:
     :path: ".symlinks/plugins/secure_application/ios"
 
 SPEC CHECKSUMS:
   Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  local_auth_ios: c6cf091ded637a88f24f86a8875d8b0f526e2605
   secure_application: 27d424e8c2e770f63e38e280b5a51f921aa9b0c8
 
 PODFILE CHECKSUM: 70d9d25280d0dd177a5f637cdb0f0b0b12c6a189
